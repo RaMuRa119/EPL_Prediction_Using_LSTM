@@ -8,7 +8,9 @@ Proyek ini dibuat sebagai bagian dari tugas akhir sarjana Informatika.
 ##  Struktur Proyek
 ```yaml
 EPL_Prediction_Using_LSTM/
-├── data/ # Dataset mentah dan hasil preprocessing
+├── data/
+│ ├── raw/ # Dataset mentah asli
+│ └── processed/ # Dataset hasil preprocessing
 ├── models/ # Model terlatih
 ├── lstm_tuning/ # Hasil parameter tuning
 ├── README.md # Deskripsi proyek ini
