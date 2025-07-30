@@ -14,31 +14,37 @@ EPL_Prediction_Using_LSTM/
 ├── outputs/ # Grafik hasil prediksi dan evaluasi
 ├── README.md # Deskripsi proyek ini
 
-## 📊 Dataset
-- **Sumber:** [football-data.co.uk](https://www.football-data.co.uk)
+---
+
+## Dataset
+- **Sumber:** [football-data.co.uk](https://www.football-data.co.uk) dan [fbref.com](https://fbref.com/en/comps/9/Premier-League-Stats)
 - **Fitur yang digunakan:**
   - Statistik Home/Away team
   - Kemenangan, hasil imbang, kekalahan
   - Skor pertandingan, selisih gol
-  - Form performa terakhir
+  - Form performa
+  - Ekspektasi gol
 
 ---
 
-## 🧠 Model
-- 📦 **Framework:** TensorFlow / Keras  
-- 🔁 **Arsitektur:** LSTM (Recurrent Neural Network)  
-- 🎯 **Target:** Prediksi klasemen akhir EPL
+## Model
+-  **Framework:** TensorFlow / Keras  
+-  **Arsitektur:** LSTM (Recurrent Neural Network)  
+-  **Target:** Prediksi klasemen akhir EPL
 
 ---
 
-## 🔎 Evaluasi Model
+## Evaluasi Model
 - Akurasi klasemen akhir
 - Visualisasi posisi peringkat vs prediksi
+- Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
+- Spearman's Corr
+- Kendal Tau
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 ```bash
 # 1. Clone repository ini
 git clone https://github.com/username/EPL_Prediction_Using_LSTM.git
