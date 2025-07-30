@@ -9,9 +9,8 @@ Proyek ini dibuat sebagai bagian dari tugas akhir sarjana Informatika.
 ```yaml
 EPL_Prediction_Using_LSTM/
 ├── data/ # Dataset mentah dan hasil preprocessing
-├── notebooks/ # Jupyter notebook untuk eksplorasi & modeling
-├── models/ # Model terlatih dan arsitektur
-├── outputs/ # Grafik hasil prediksi dan evaluasi
+├── models/ # Model terlatih
+├── lstm_tuning/ # Hasil parameter tuning
 ├── README.md # Deskripsi proyek ini
 
 ```
