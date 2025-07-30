@@ -6,7 +6,7 @@ Proyek ini dibuat sebagai bagian dari tugas akhir sarjana Informatika.
 ---
 
 ##  Struktur Proyek
-
+```yaml
 EPL_Prediction_Using_LSTM/
 ├── data/ # Dataset mentah dan hasil preprocessing
 ├── notebooks/ # Jupyter notebook untuk eksplorasi & modeling
