@@ -52,4 +52,4 @@ EPL_Prediction_Using_LSTM/
 git clone https://github.com/username/EPL_Prediction_Using_LSTM.git
 
 # 2. Jalankan notebook
-jupyter notebook sequence.ipynb
+jupyter notebook Sequence.ipynb
