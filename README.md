@@ -1,5 +1,8 @@
 # EPL Prediction Using LSTM
 
+![GitHub repo size](https://img.shields.io/github/repo-size/RaMuRa119/EPL_Prediction_Using_LSTM)
+![GitHub last commit](https://img.shields.io/github/last-commit/RaMuRa119/EPL_Prediction_Using_LSTM)
+
 Prediksi klasemen akhir **English Premier League (EPL)** menggunakan model **Long Short-Term Memory (LSTM)** berdasarkan data historis pertandingan.  
 Proyek ini dibuat sebagai bagian dari tugas akhir sarjana Informatika.
 
